@@ -50,7 +50,7 @@ body {
 }
 
 .layout_padding {
-  padding: 75px 0;
+  padding: 0px 0;
 }
 
 .layout_padding2 {
@@ -334,7 +334,7 @@ a:focus {
 }
 
 .custom_menu-container {
-  background-color: $green1;
+  background-color:#6a6e76c2;;
 
 
   .custom_menu {
@@ -800,7 +800,41 @@ a:focus {
 
 /* 假設圖片是通過 img 標籤設置的 */
 .circular-image img {
-  width: 100%; /* 讓圖片充滿整個容器 */
-  height: auto; /* 自動調整高度，保持圖片比例 */
+  width: auto; /* 讓圖片充滿整個容器 */
+  height: 100%; /* 自動調整高度，保持圖片比例 */
   display: block; /* 確保圖片在容器中居中顯示 */
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #ddd;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.center {
+  text-align: center;
+}
+
+.skills-table {
+  margin-top: 20px;
+}
+
+.skills-table th, .skills-table td {
+  padding: 8px;
+}
+
+.skills-table th {
+  background-color: #f2f2f2;
+  border-bottom: 2px solid #ddd;
+  text-align: left;
 }
