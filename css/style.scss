@@ -20,9 +20,9 @@ $black:#000000;
   font-family: 'Open Sans', sans-serif;
 }
 
-h1,
-h2,
-h3 {}
+// h1,
+// h2,
+// h3 {}
 
 @mixin hero_btn($col1, $col2, $pad1, $pad2, $radius) {
   display: inline-block;
@@ -284,7 +284,7 @@ a:focus {
     transform: translate(-50%, 55px);
   }
 
-  .carousel-control-next {}
+  // .carousel-control-next {}
 
 }
 
