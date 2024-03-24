@@ -788,3 +788,19 @@ a:focus {
 }
 
 // end footer section
+
+
+/* costum */
+.circular-image {
+  width: 200px; /* 調整圖片的寬度 */
+  height: 200px; /* 調整圖片的高度 */
+  border-radius: 50%; /* 使用圓形的邊框半徑來裁切圖片 */
+  overflow: hidden; /* 隱藏超出邊界的部分 */
+}
+
+/* 假設圖片是通過 img 標籤設置的 */
+.circular-image img {
+  width: 100%; /* 讓圖片充滿整個容器 */
+  height: auto; /* 自動調整高度，保持圖片比例 */
+  display: block; /* 確保圖片在容器中居中顯示 */
+}
