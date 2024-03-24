@@ -765,4 +765,13 @@ th {
   border-bottom: 2px solid #ddd;
   text-align: left;
 }
+
+.container-selfintro {
+  margin: 0 auto;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 95px;
+}
 /*# sourceMappingURL=style.css.map */
